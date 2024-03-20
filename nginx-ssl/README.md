@@ -6,6 +6,10 @@ Check out the tutorial here:
 
 [Setting Up SSL with Nginx](https://drive.google.com/file/d/1UJsVYK3g1ZhZyirf7lcoDCSluP3f7F0j/view?usp=drive_link)
 
+For Setting SSL with Nginx in AWS check out this tutorial:
+
+[Setting Up SSL with Nginx in AWS](https://drive.google.com/file/d/185wGtQhSSOM88FvJaQ7yibN9aUb3nB0I/view?usp=drive_link)
+
 ## What is HTTPS ?
 
 HTTPS is a secure version of HTTP. While HTTP sends data as plain text over a network, HTTPS uses encryption for securely transferring data over a network.
