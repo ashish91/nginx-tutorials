@@ -2,6 +2,10 @@
 
 This tutorial helps in configuring Nginx to accept https traffic using a self signed certificate.
 
+Check out the tutorial here:
+
+[Setting Up SSL with Nginx](https://drive.google.com/file/d/1UJsVYK3g1ZhZyirf7lcoDCSluP3f7F0j/view?usp=drive_link)
+
 ## What is HTTPS ?
 
 HTTPS is a secure version of HTTP. While HTTP sends data as plain text over a network, HTTPS uses encryption for securely transferring data over a network.
