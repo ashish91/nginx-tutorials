@@ -12,7 +12,7 @@ sudo chmod 700 /etc/nginx/ssl
 # Generates self signed certificate which similar to CA-signed certificates
 # Only drawback being it will give the user warning that the cert is not trusted
 # sudo openssl req -newkey rsa:2048 -keyout /etc/nginx/ssl/example.key -x509 -nodes -days 365 -out /etc/nginx/ssl/example.crt
-sudo openssl req -newkey rsa:2048 -key /etc/nginx/ssl/example.key -x509 -days 365 -out /etc/nginx/ssl/example.crt
+sudo openssl req -newkey rsa:2048 -keyout /etc/nginx/ssl/example.key -x509 -nodes -days 365 -out /etc/nginx/ssl/example.crt
 
 # Country Name (2 letter code) [AU]:IN
 # State or Province Name (full name) [Some-State]:Delhi
@@ -23,6 +23,6 @@ sudo openssl req -newkey rsa:2048 -key /etc/nginx/ssl/example.key -x509 -days 36
 # Email Address []:ashishgaurp91@gmail.com
 
 cd /etc/nginx/conf.d/
-sudo vim www.example.com.conf
+sudo vim www.example.org.conf
 
 sudo nginx -s reload
